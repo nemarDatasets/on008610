@@ -1,0 +1,48 @@
+{
+  "TaskName": "FUS",
+  "TaskDescription": "Focused ultrasound (FUS) neuromodulation: FUS pulses were delivered to target site VPL while extracellular electrophysiology was recorded from VPL thalamus.",
+  "Instructions": "n/a",
+  "CogAtlasID": "n/a",
+  "CogPOID": "n/a",
+  "InstitutionName": "Vanderbilt University Medical Center",
+  "InstitutionAddress": "n/a",
+  "InstitutionalDepartmentName": "Radiology",
+  "Manufacturer": "Blackrock Neurotech",
+  "ManufacturersModelName": "Cerebus system with CerePlex Direct digitizer and CerePlex M headstage",
+  "DeviceSerialNumber": "n/a",
+  "SoftwareVersions": "Central Suite 7.0.6",
+  "ElectrodeManufacturer": "NeuroNexus",
+  "ElectrodeManufacturersModelName": "V1x32-Edge",
+  "SamplingFrequency": 1000,
+  "PowerLineFrequency": 60,
+  "HardwareFilters": {
+    "Lowpass": {
+      "CutoffFrequency": 250
+    }
+  },
+  "SoftwareFilters": "n/a",
+  "SpikeSamplingFrequency": 30000,
+  "SpikeHardwareFilters": {
+    "Bandpass": {
+      "HighpassCutoffFrequency": 300,
+      "LowpassCutoffFrequency": 5000
+    }
+  },
+  "RecordingType": "continuous",
+  "RecordingDuration": 186.004,
+  "iEEGReference": "TODO",
+  "iEEGGround": "Skull screw, grounded to surgery table.",
+  "iEEGPlacementScheme": "Single-shank 32-channel NeuroNexus V1x32-Edge in VPL thalamus",
+  "iEEGElectrodeGroups": "probe1: single-shank 32-channel NeuroNexus V1x32-Edge targeting VPL thalamus (R hemisphere).",
+  "ECOGChannelCount": 0,
+  "SEEGChannelCount": 32,
+  "EEGChannelCount": 0,
+  "EOGChannelCount": 0,
+  "ECGChannelCount": 0,
+  "EMGChannelCount": 0,
+  "MiscChannelCount": 0,
+  "TriggerChannelCount": 0,
+  "SubjectArtefactDescription": "n/a",
+  "StimSite": "VPL",
+  "Species": "Macaca mulatta"
+}
