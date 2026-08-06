@@ -1,48 +1,48 @@
 {
-  "Name": "FUS and Tactile Neuromodulation in NHP VPL - Electrophysiology",
-  "BIDSVersion": "1.9.0",
-  "DatasetType": "raw",
-  "License": "CC0",
-  "Authors": [
-    "Ning Zheng",
-    "Pai-Feng Yang",
-    "M. Anthony Phipps",
-    "Jiro Kusunose",
-    "Arabinda Mishra",
-    "Jixin Xia",
-    "William Rodriguez",
-    "Allen T. Newton",
-    "Benoit M. Dawant",
-    "John C. Gore",
-    "Charles F. Caskey",
-    "Li Min Chen"
-  ],
-  "Acknowledgements": "We thank Ms. Chaohui Tang and Xuerong Zhang for assisting with animal care and data acquisition.",
-  "HowToAcknowledge": "Please cite: Zheng, N., Yang, P.F., Phipps, M.A. et al. Transcranial focused ultrasound modulates spiking, LFP, and BOLD activity in the primate thalamus. Nat Commun (2026). https://doi.org/10.1038/s41467-026-75826-8",
-  "Funding": [
-    "NIH/NINDS RF1 NS126144",
-    "NIH/NIBIB 1U18EB02935"
-  ],
-  "EthicsApprovals": [
-    "IACUC protocol # M170062-03"
-  ],
-  "ReferencesAndLinks": [
-    "https://doi.org/10.1038/s41467-026-75826-8"
-  ],
-  "DatasetDOI": "",
-  "SourceDatasets": [
-    {
-      "URL": "n/a",
-      "DOI": "n/a",
-      "Version": "n/a"
-    }
-  ],
-  "GeneratedBy": [
-    {
-      "Name": "Custom BlackRock-to-BIDS pipeline",
-      "Version": "0.1.0",
-      "Description": "NPMK (openNSx/openNEV) for raw read, MatNWB for NWB export",
-      "CodeURL": ""
-    }
-  ]
+    "Name": "FUS and Tactile Neuromodulation in NHP VPL - Electrophysiology",
+    "BIDSVersion": "1.9.0",
+    "DatasetType": "raw",
+    "License": "CC0",
+    "Authors": [
+        "Ning Zheng",
+        "Pai-Feng Yang",
+        "M. Anthony Phipps",
+        "Jiro Kusunose",
+        "Arabinda Mishra",
+        "Jixin Xia",
+        "William Rodriguez",
+        "Allen T. Newton",
+        "Benoit M. Dawant",
+        "John C. Gore",
+        "Charles F. Caskey",
+        "Li Min Chen"
+    ],
+    "Acknowledgements": "We thank Ms. Chaohui Tang and Xuerong Zhang for assisting with animal care and data acquisition.",
+    "HowToAcknowledge": "Please cite: Zheng, N., Yang, P.F., Phipps, M.A. et al. Transcranial focused ultrasound modulates spiking, LFP, and BOLD activity in the primate thalamus. Nat Commun (2026). https://doi.org/10.1038/s41467-026-75826-8",
+    "Funding": [
+        "NIH/NINDS RF1 NS126144",
+        "NIH/NIBIB 1U18EB02935"
+    ],
+    "EthicsApprovals": [
+        "IACUC protocol # M170062-03"
+    ],
+    "ReferencesAndLinks": [
+        "https://doi.org/10.1038/s41467-026-75826-8"
+    ],
+    "DatasetDOI": "doi:10.18112/openneuro.ds008610.v1.0.0",
+    "SourceDatasets": [
+        {
+            "URL": "n/a",
+            "DOI": "n/a",
+            "Version": "n/a"
+        }
+    ],
+    "GeneratedBy": [
+        {
+            "Name": "Custom BlackRock-to-BIDS pipeline",
+            "Version": "0.1.0",
+            "Description": "NPMK (openNSx/openNEV) for raw read, MatNWB for NWB export",
+            "CodeURL": ""
+        }
+    ]
 }
