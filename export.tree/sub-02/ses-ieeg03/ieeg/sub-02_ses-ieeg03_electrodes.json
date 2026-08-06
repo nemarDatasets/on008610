@@ -1,6 +1,0 @@
-{
-  "depth_um": {
-    "Description": "Estimated depth of the electrode contact along the shank, in micrometers, derived from the Blackrock-channel-to-shank-position mapping in the NeuroNexus V1x32-Edge -> Blackrock PN10532 adapter pinout (shank position 1 = tip = 0 um, 100 um increments per position). \"n/a\" indicates the channel was not found in the pinout map.",
-    "Units": "um"
-  }
-}
