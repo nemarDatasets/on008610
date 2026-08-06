@@ -1,0 +1,20 @@
+{
+  "trial_type": {
+    "Description": "Type of event.",
+    "Levels": {
+      "FUS_pulse": "FUS_pulse event."
+    }
+  },
+  "stim_site": {
+    "Description": "Stimulation target site label for this event (e.g., thalamic nucleus or stimulation location).",
+    "Levels": {
+      "VPL": "Stimulation site: VPL"
+    }
+  },
+  "StimulusPresentation": {
+    "OperatingSystem": "n/a",
+    "SoftwareName": "n/a",
+    "SoftwareVersion": "n/a",
+    "Code": "n/a"
+  }
+}

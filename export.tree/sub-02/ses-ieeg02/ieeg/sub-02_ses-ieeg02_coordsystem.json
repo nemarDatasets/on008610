@@ -1,0 +1,9 @@
+{
+  "iEEGCoordinateSystem": "Other",
+  "iEEGCoordinateSystemDescription": "Stereotaxic coordinates relative to interaural line / ear bars. Recording array: NeuroNexus V1x32-Edge, single-shank, 32 sites at 100 um pitch, 177 um^2 iridium sites, targeting VPL.",
+  "iEEGCoordinateUnits": "mm",
+  "iEEGCoordinateProcessingDescription": "n/a",
+  "iEEGCoordinateProcessingReference": "n/a",
+  "IntendedFor": "n/a",
+  "ElectrodeDepthConvention": "depth_um in electrodes.tsv is derived from the Blackrock-channel-to-shank-position mapping in the NeuroNexus V1x32-Edge -> Blackrock PN10532 adapter pinout (shank position 1 = tip = 0 um, 100 um increments per position)."
+}
