@@ -1,0 +1,36 @@
+{
+  "participant_id": {
+    "Description": "Unique participant identifier."
+  },
+  "species": {
+    "Description": "Species of the participant.",
+    "Levels": {
+      "Macaca fascicularis": "Long-tailed (cynomolgus) macaque",
+      "Macaca mulatta": "Rhesus macaque"
+    }
+  },
+  "strain": {
+    "Description": "Strain/subspecies designation. 'n/a' indicates not applicable or not recorded."
+  },
+  "age": {
+    "Description": "Age at time of experiment.",
+    "Units": "years"
+  },
+  "sex": {
+    "Description": "Biological sex.",
+    "Levels": {
+      "F": "female",
+      "M": "male"
+    }
+  },
+  "weight": {
+    "Description": "Body weight at time of experiment.",
+    "Units": "kg"
+  },
+  "implant_location": {
+    "Description": "Primary implant target/location (e.g., VPL thalamus).",
+    "Levels": {
+      "VPL": "Ventral posterolateral nucleus of the thalamus"
+    }
+  }
+}
