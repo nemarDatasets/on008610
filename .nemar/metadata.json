@@ -1,0 +1,47 @@
+{
+  "version": "2.0",
+  "dataset_id": "on008610",
+  "source": "openneuro",
+  "source_id": "ds008610",
+  "title": "FUS and Tactile Neuromodulation in NHP VPL - Electrophysiology",
+  "authors": {
+    "Ning Zheng": {},
+    "Pai-Feng Yang": {},
+    "M. Anthony Phipps": {},
+    "Jiro Kusunose": {},
+    "Arabinda Mishra": {},
+    "Jixin Xia": {},
+    "William Rodriguez": {},
+    "Allen T. Newton": {},
+    "Benoit M. Dawant": {},
+    "John C. Gore": {},
+    "Charles F. Caskey": {},
+    "Li Min Chen": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds008610.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.9.0",
+  "recording_modality": [
+    "ieeg"
+  ],
+  "datatypes": [
+    "ieeg"
+  ],
+  "funding_references": [
+    {
+      "funder_name": "NIH/NINDS RF1 NS126144"
+    },
+    {
+      "funder_name": "NIH/NIBIB 1U18EB02935"
+    }
+  ],
+  "acknowledgements": "We thank Ms. Chaohui Tang and Xuerong Zhang for assisting with animal care and data acquisition."
+}
