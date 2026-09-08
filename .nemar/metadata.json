@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on008610",
-  "source": "openneuro",
-  "source_id": "ds008610",
+  "pipeline_stage": "validated",
   "title": "FUS and Tactile Neuromodulation in NHP VPL - Electrophysiology",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Ning Zheng": {},
     "Pai-Feng Yang": {},
@@ -13,35 +13,89 @@
     "Jixin Xia": {},
     "William Rodriguez": {},
     "Allen T. Newton": {},
-    "Benoit M. Dawant": {},
+    "Benoit M. Dawant": {
+      "orcid": "0000-0002-3804-8400"
+    },
     "John C. Gore": {},
-    "Charles F. Caskey": {},
-    "Li Min Chen": {}
+    "Charles F. Caskey": {
+      "orcid": "0000-0003-4545-4842"
+    },
+    "Li Min Chen": {
+      "orcid": "0000-0001-9662-1925"
+    }
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds008610.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "10.1038/s41467-026-75826-8",
+      "identifier_type": "DOI",
+      "relation_type": "IsSupplementTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on008610",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on008610",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.9.0",
-  "recording_modality": [
-    "ieeg"
-  ],
-  "datatypes": [
-    "ieeg"
   ],
   "funding_references": [
     {
-      "funder_name": "NIH/NINDS RF1 NS126144"
+      "funder_name": "NIH/NINDS",
+      "award_number": "RF1 NS126144"
     },
     {
-      "funder_name": "NIH/NIBIB 1U18EB02935"
+      "funder_name": "NIH/NIBIB",
+      "award_number": "1U18EB02935"
     }
   ],
-  "acknowledgements": "We thank Ms. Chaohui Tang and Xuerong Zhang for assisting with animal care and data acquisition."
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "ieeg"
+  ],
+  "resource_type_specific": "iEEG Dataset",
+  "sizes": [
+    "36 B (1 files)"
+  ],
+  "formats": [
+    ".json",
+    ".md",
+    ".nwb",
+    ".tsv"
+  ],
+  "description": "This dataset comprises intracranial electrophysiology recordings from the ventral posterolateral (VPL) thalamus of macaque monkeys, collected to investigate the effects of transcranial focused ultrasound (FUS) neuromodulation and tactile stimulation on neural activity. Recordings include single-unit spikes and local field potentials acquired via a multi-site NeuroNexus probe on a Blackrock Cerebus system, under conditions of FUS targeted at either VPL or insular cortex, and tactile stimulation of the contralateral hand. The data support investigations into how focused ultrasound modulates spiking, LFP, and BOLD activity in the primate thalamus.",
+  "methods_description": "Extracellular electrophysiology was recorded using a NeuroNexus V1x32-Edge single-shank probe (32 channels, 100 µm pitch) connected to a Blackrock CerePlex Direct system with CerePlex M headstage, sampling spikes at 30 kHz and LFP at 1 kHz. Recordings were made from the right hemisphere VPL thalamus during FUS neuromodulation (targeted at VPL or insular cortex) and tactile stimulation of the contralateral hand. Raw Blackrock files were processed using NPMK (openNSx, openNEV) in MATLAB and converted to NWB format using MatNWB.",
+  "keywords": [
+    {
+      "term": "electrophysiology"
+    },
+    {
+      "term": "focused ultrasound"
+    },
+    {
+      "term": "Thalamus",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D013788"
+    },
+    {
+      "term": "tactile stimulation"
+    },
+    {
+      "term": "local field potential"
+    },
+    {
+      "term": "macaque"
+    },
+    {
+      "term": "neuromodulation"
+    }
+  ],
+  "source_hash": "d41a603bed0f2a21b3f639c1d9fc306a1722b5ba623b77b6207e19d5db74beb3"
 }
