@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "FUS and Tactile Neuromodulation in NHP VPL - Electrophysiology",
-  "description": "This dataset contains intracranial electrophysiology recordings from the ventral posterolateral (VPL) thalamus of macaque monkeys, acquired using a NeuroNexus multi-channel probe on a Blackrock Cerebus system. Recordings were made during focused ultrasound (FUS) neuromodulation targeted at either VPL thalamus or insular cortex, and during tactile stimulation of the contralateral hand. The dataset supports investigation of how transcranial focused ultrasound modulates spiking and local field potential activity in the primate thalamus.",
-  "methods_description": "Extracellular electrophysiology was recorded from VPL thalamus using a NeuroNexus V1x32-Edge single-shank probe (32 sites, 100 µm pitch, 177 µm² iridium sites) connected to a Blackrock CerePlex Direct system with a CerePlex M headstage. Spikes were sampled at 30 kHz and LFP at 1 kHz. Raw Blackrock files were read using NPMK (openNSx, openNEV) in MATLAB and converted to NWB format using MatNWB.",
+  "description": "Intracranial electrophysiology recordings from the ventral posterolateral (VPL) thalamus of macaques, collected with a 32-channel linear probe during transcranial focused ultrasound (FUS) neuromodulation and tactile stimulation. FUS was targeted either to VPL thalamus or to insular cortex while recording remained in VPL. The dataset includes spiking and local field potential recordings supporting a study of FUS effects on primate thalamic activity.",
+  "methods_description": "Recordings used a NeuroNexus V1x32-Edge single-shank probe (32 sites, 100 µm pitch) in right-hemisphere VPL, acquired with a Blackrock Cerebus/CerePlex system at 30 kHz for spikes and 1 kHz for LFP. FUS was applied to VPL or insular cortex, and tactile stimulation was delivered to the contralateral hand. Raw Blackrock files were read with NPMK in MATLAB and exported to NWB using MatNWB.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -28,10 +28,13 @@
   },
   "keywords": [
     {
-      "term": "electrophysiology"
+      "term": "intracranial electrophysiology"
     },
     {
       "term": "focused ultrasound"
+    },
+    {
+      "term": "neuromodulation"
     },
     {
       "term": "Thalamus",
@@ -39,23 +42,20 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D013788"
     },
     {
+      "term": "local field potentials"
+    },
+    {
       "term": "macaque"
     },
     {
       "term": "tactile stimulation"
-    },
-    {
-      "term": "local field potential"
-    },
-    {
-      "term": "neuromodulation"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "10.1038/s41467-026-75826-8",
       "identifier_type": "DOI",
-      "relation_type": "IsSupplementTo"
+      "relation_type": "IsDescribedBy"
     },
     {
       "identifier": "https://github.com/nemarDatasets/on008610",
